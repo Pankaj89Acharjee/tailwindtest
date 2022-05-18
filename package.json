@@ -1,0 +1,20 @@
+{
+  "name": "tailwindtest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "json": "^11.0.0",
+    "nodemon": "^2.0.16",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^2.2.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwind build src/style.css -o publicStatic/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
